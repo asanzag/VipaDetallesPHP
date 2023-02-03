@@ -1,0 +1,20 @@
+.footer{
+    background-image: url(../img/headerv.jpg);
+    padding: 4.5rem 0;
+    margin-bottom: 0;
+
+    .contenedor-footer{
+        padding-top: 2.5rem;
+    }
+    
+    .navegacion {
+        visibility: visible;
+        opacity: 1;
+        height: auto;
+    }
+
+    .copyright{
+        color: $negro;
+        text-align: center;
+    }
+}

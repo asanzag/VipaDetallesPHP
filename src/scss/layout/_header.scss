@@ -1,0 +1,43 @@
+.header{
+    background-image: url(../img/headerv.jpg);
+    padding: 1rem 0 3rem 0;
+    img {
+        width: 100%;
+        display: block;
+    }
+    @include tablet{
+        img {
+            width: 85%;
+            display: block;
+        }
+    }
+
+    &.inicio{
+        background-position: center center;
+        background-size: cover;
+
+        @include tablet{
+            min-height: 70rem;
+        }
+
+        .contenido-header{
+            @include tablet{
+                min-height: 70rem;
+            }
+        }
+    }
+}
+
+.contenido-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h1{
+        text-align: left;
+        color: $negro;
+        font-weight: $bold;
+        line-height: 2;
+        max-width: 60rem;
+    }
+}
